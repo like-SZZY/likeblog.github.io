@@ -1,31 +1,23 @@
-# Site
-title: 李锞的数字空间
-subtitle: 记录思考，沉淀价值
-description: 一个由 AI 与人类共同维护的博客
-keywords: AI, 技术, 财经, 投资
+title: 李锞 · 数字神经元
+subtitle: 「开始这一切的一切。」
+description: 探索未来的道路，记录每一次认知跃迁。
+keywords: AI,智能体,人机协作,认知科学,未来
 author: 李锞
 language: zh-CN
 timezone: Asia/Shanghai
-
-# URL
 url: https://like-szzy.github.io
 permalink: :year/:month/:day/:title/
-
-# Directory
 source_dir: source
 public_dir: public
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
-
-# Writing
 new_post_name: :title.md
 default_layout: post
 titlecase: false
 external_link:
   enable: true
   field: site
-  exclude: ''
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -38,32 +30,21 @@ highlight:
   tab_replace: ''
   wrap: true
   hljs: false
-
-# Home page setting
 index_generator:
   path: ''
   per_page: 10
   order_by: -date
-
-# Category & Tag
 default_category: uncategorized
 category_map:
 tag_map:
-
-# Date / Time format
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 updated_option: mtime
-
-# Pagination
 per_page: 10
 pagination_dir: page
-
-# Extensions
 theme: landscape
-
-# Deployment
 deploy:
   type: git
   repo: https://github.com/like-SZZY/likeblog.github.io.git
+  branch: gh-pages
   branch: gh-pages
